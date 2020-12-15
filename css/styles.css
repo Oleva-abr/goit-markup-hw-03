@@ -1,11 +1,3 @@
-html {
-  box-sizing: border-box;
-}
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
 /* цвет текста  #757575;
   цвет заголовков  и кнопок#212121
   акцент+часть лого #2196F3;
