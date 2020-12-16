@@ -5,6 +5,25 @@
   вторичный цвет фона #2F303A
  */
 /* site colors */
+
+.title {
+  color: var(--hero-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  background: #2f303a;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -12,6 +31,7 @@
   --hero-text-color: #ffffff;
   --bgd-button-color: #f5f4fa;
 }
+
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
@@ -21,7 +41,6 @@ body {
 a {
   text-decoration: none;
 }
-
 /* logo */
 .logo {
   font-family: Raleway, sans-serif;
@@ -38,6 +57,8 @@ a {
 
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 /* Titles */
 .title {
@@ -50,23 +71,33 @@ ul {
   text-align: center;
   background: #2f303a;
 }
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 30;
+}
 .section-title-primary {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+
+  margin-top: 0;
 }
 .section-title-secondary {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+
+  margin-top: 0;
 }
 .section-title-portfolio {
   color: var(--title-text-color);
   font-size: 18px;
   line-height: 2;
+
+  margin-top: 0;
 }
 .title-uppercase {
   text-transform: uppercase;
@@ -75,6 +106,10 @@ ul {
   background: #f5f4fa;
 }
 /* Texts */
+.section p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 .section-text {
   font-size: 14px;
@@ -83,6 +118,7 @@ ul {
 .section-team-text {
   font-size: 16px;
   line-height: 1.18;
+  margin-bottom: 0;
 }
 .section-portfolio-text {
   font-size: 16px;
@@ -121,25 +157,42 @@ ul {
   color: var(--hero-text-color);
   background-color: var(--accent-color);
   font-family: inherit;
+
+  border-radius: 4px;
+  text-align: center;
+  border: none;
+}
+.button.primary {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-}
 
-.button.primary {
+  padding: 10px 32px;
+  min-width: 200px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.button.secondary {
   color: var(--title-text-color);
   background-color: var(--bgd-button-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.62;
+
+  min-width: 73px;
+  padding: 6px 22px;
 }
-.primary:hover {
+.secondary:hover,
+.secondary:focus {
   color: var(--hero-text-color);
   background-color: var(--accent-color);
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 /* footer */
 .footer {
   background-color: #2f303a;
+  margin-top: 0;
 }
 .footer-logo {
   color: var(--hero-text-color);
@@ -157,4 +210,10 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+}
+/* Container sizes */
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
