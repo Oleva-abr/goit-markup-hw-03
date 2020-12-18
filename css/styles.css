@@ -71,12 +71,12 @@ ul {
   margin-top: 0;
   margin-bottom: 50px;
 }
-..primary-list {
+.primary-list {
   display: flex;
+  margin-bottom: 94px;
 }
 .primary-list .item + .item {
-  margin-right: 30px;
-  background-color: violet;
+  margin-left: 30px;
 }
 .section-title-secondary {
   color: var(--title-text-color);
@@ -101,23 +101,32 @@ ul {
 .team-section {
   background: #f5f4fa;
 }
+/* Team list */
+.team-list {
+  display: flex;
+}
+
+.team-list .item:not(:last-child) {
+  margin-right: 30px;
+}
 /* Texts */
 .section p {
   margin-top: 0;
-  margin-bottom: 0;
 }
 .section-text {
   font-size: 14px;
   line-height: 1.71;
+  margin-bottom: 0;
 }
 .section-team-text {
   font-size: 16px;
   line-height: 1.18;
-  margin-bottom: 0;
+  margin-bottom: 94px;
 }
 .section-portfolio-text {
   font-size: 16px;
   line-height: 1.86;
+  margin-bottom: 0;
 }
 
 /* Address */
