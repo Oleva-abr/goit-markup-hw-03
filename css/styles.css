@@ -146,6 +146,8 @@ ul {
 .main-nav {
   display: flex;
   align-items: center;
+}
+.portfolio-border {
   border-bottom: 1px solid #ececec;
 }
 /* site nav */
