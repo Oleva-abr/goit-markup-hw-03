@@ -119,6 +119,7 @@ ul {
 }
 .team-section {
   background: #f5f4fa;
+  padding-top: 94px;
 }
 /* Team list */
 .team-list {
@@ -256,6 +257,7 @@ ul {
 /* list main */
 .feacher-list {
   display: flex;
+  padding-top: 94px;
 }
 .feacher-list .item:not(:last-child) {
   margin-right: 30px;
@@ -287,6 +289,7 @@ ul {
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
+  padding-top: 94px;
 }
 .portfolio-button .item:not(:last-child) {
   margin-right: 8px;
